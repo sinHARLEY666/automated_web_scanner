@@ -2,7 +2,7 @@
 
 A Python command-line tool that audits a website for common security misconfigurations: missing security headers, insecure cookies, information disclosure, HTTPS redirect problems and CORS flaws. It produces a console summary, a JSON file and a standalone HTML report, plus a 0-100 security score.
 
-> **Legal notice:** Only scan websites you own or have explicit written permission to test. The tool asks for confirmation before every scan.
+Only scan websites you own or have explicit written permission to test. The tool asks for confirmation before every scan.
 
 ## Features
 
@@ -17,8 +17,8 @@ Each finding has a severity (HIGH / MEDIUM / LOW / INFO), a description and a re
 ## Installation
 
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone <https://github.com/sinHARLEY666/automated_web_scanner>
+cd <automated_web_folder>
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
